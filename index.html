@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+ 
+</head>
+  <style>
+    
+  @media (min-width: 500.98px) { 
+
+    .footer{
+      border-bottom: 2px solid #999;
+      padding: 10px 0 !important;
+   
+    }
+    .img1{
+      width: 100vw !important;
+    }
+    .img1{
+      width: 100vw !important;  
+    }
+    .des{
+      width: 60% !important;
+      position: absolute; 
+      left: 20px; 
+      top: 150px;
+      
+    }
+    h1{
+      font-size: 24px !important;
+      font-weight: bold !important;
+    }
+    h2{
+      font-size: 22px !important;
+      font-weight: bold !important;
+    }
+    p{
+      font-size: 12px !important;  
+    }
+  } 
+
+  /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .footer{
+      text-align: center;
+      border-bottom: 2px solid #999;
+      padding: 20px 0;
+    }
+    .img1{
+      width: 100vw !important;  
+    }
+    .des{
+      width: 60% !important;
+      position: absolute; 
+      left: 30px; 
+      top: 180px;
+      
+    }
+    h1{
+      font-size: 28px !important;
+      font-weight: bold !important;
+    }
+    h2{
+      font-size: 24px !important;
+      font-weight: bold !important;
+    }
+    p{
+      font-size: 14px !important; 
+    }
+   }
+
+  /* // `md` applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .footer{
+      border-bottom: 2px solid #999;
+      padding: 10px 0;
+      height: 280px !important;
+      
+    }
+    .img1{
+      width: 100vw !important;
+    }
+    .levels{
+      padding-top: 40px !important;
+    }
+    .img1{
+      width: 100vw !important;  
+    }
+    .des{
+      width: 60% !important;
+      position: absolute; 
+      left: 50px; 
+      top: 190px;
+      
+    }
+    h1{
+      font-size: 30px !important;
+      font-weight: bold !important;
+    }
+    h2{
+      font-size: 26px !important;
+      font-weight: bold !important;
+    }
+    p{
+      font-size: 18px !important;  
+    }
+   }
+
+  /* // `lg` applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) { 
+    .footer{
+      border-bottom: 2px solid #999;
+      padding: 10px 0;  
+    }
+    .size-test{
+      font-size: 10px;
+    }
+    .levels{
+      padding-top: 40px !important;
+    }
+    .img1{
+      width: 100vw !important;
+    }
+    .img1{
+      width: 100vw !important;  
+    }
+    .des{
+      width: 60% !important;
+      position: absolute; 
+      left: 60px; 
+      top: 420px;
+      
+    }
+    h1{
+      font-size: 34px !important;
+      font-weight: bold !important;
+    }
+    h2{
+      font-size: 30px !important;
+      font-weight: bold !important;
+    }
+    p{
+      font-size: 20px !important;  
+    }
+   }
+
+  /* // `xl` applies to large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) { 
+    .test{
+      width: 150px !important;
+      margin: 12px 50px!important;
+    }
+    .footer{
+      border-left: 2px solid #999;
+      
+    }
+    .footer:first-child{
+      border: none;
+    }
+    .img1{
+      width: 100vw !important;
+    }
+    .img1{
+      width: 100vw !important;  
+    }
+    .des{
+      width: 60% !important;
+      position: absolute; 
+      left: 80px; 
+      top: 550px;
+      
+    }
+    h1{
+      font-size: 40px !important;
+      font-weight: bold !important;
+    }
+    h2{
+      font-size: 36px !important;
+      font-weight: bold !important;
+    }
+    p{
+      font-size: 22px !important;  
+    }
+   }
+
+  /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+  @media (max-width: 1399.98px) { 
+    .test{
+      width: 150px !important;
+      margin: 12px 50px!important;
+    }
+    .img1{
+      width: 100vw !important;
+    }
+    .footer{
+      border-left: 2px solid #999;
+      
+    }
+    .footer:first-child{
+      border: none;
+    }
+    .img1{
+      width: 100vw !important;  
+    }
+    .des{
+      width: 60% !important;
+      position: absolute; 
+      left: 100px; 
+      top: 550px;
+      
+    }
+    h1{
+      font-size: 50px !important;
+      font-weight: bold !important;
+    }
+    h2{
+      font-size: 42px !important;
+      font-weight: bold !important;
+    }
+    p{
+      font-size: 28px !important;
+    }
+   }
+    .test:hover{
+      background-color: green !important;
+    }
+    .text-test:hover{
+      color: rgb(4, 255, 4) !important;
+    }
+    .dropdown:hover .dropdown-menu{
+      display: block !important;
+    }
+    .nav-link{
+        font-size: 20px !important;
+        color:white !important;
+        margin:  0 auto;
+        text-align: center !important;
+    }
+
+    /* main .container-fluid .col-12 img{
+        height: 100vh !important;
+    } */
+
+    /* .describe{
+        left: 40px;
+        top: 50%;
+    } */
+  </style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg position-fixed top-0 z-3 w-100 bg-black opacity-75">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://www.test-english.com/img/logo-test-english-web-home.svg" alt="" width="200px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-1 dropdown">
+                    <a class="nav-link" href="#">Grammar</a>
+                    <ul class="dropdown-menu text-center">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item mx-1 dropdown">
+                    <a href="#" class="nav-link">Vocabulary</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item mx-1 dropdown">
+                    <a href="#" class="nav-link">Listening</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item mx-1 dropdown">
+                    <a href="#" class="nav-link">Reading</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item mx-1 dropdown">
+                    <a href="#" class="nav-link">Use of English</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item mx-1 dropdown">
+                    <a href="#" class="nav-link">Writing</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="nav-item mx-1 dropdown">
+                    <a href="#" class="nav-link">Exams</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Elementary</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Upper-intermediate</a></li>
+                        <li><a class="dropdown-item" href="#"> Pre-advanced</a></li>
+                      </ul>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="text-white btn me-2"> <i class="bi bi-search"></i></a>
+                    <a href="#" class="btn btn-outline-light p-2 me-5">Login</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container-fluid p-0 m-0">
+            <div class="position-relative">
+                <img src="https://test-english.com/img/test-english-home-bg-1920.jpg" alt="" class="img1" >
+            </div>
+            <div class="des text-light col-4" >
+                <h1>Test-English</h1>
+                <h2 class="text-success">Take your learning with you!</h2>
+                <p>Grammar lessons with exercises and clear explanations, grammar charts, reading and listening tests with transcriptions, writing lessons, instant marking, answer feedback, and much more!</p>
+            </div>
+      </div>
+
+      <div class="container">
+        <div class="h1 text-center fw-bold my-5">
+          What would you like to learn today?
+        </div>
+        <!-- 6 card -->
+        <div class=" d-flex justify-content-between  row ">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px; ">
+                <img src="https://www.test-english.com/img/test-english-home-Grammar-points.jpg" class="card-img-top" alt="" >
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Grammar Lessons</h5>
+                  <div class="card-text">Study the grammar lessons that are typically included in each level: A1, A2, B1, B1+, B2. There are three or more exercises and an explanation in each lesson, and feedback for every single question!</div>
+                  <a href="#" class="btn btn-outline-secondary" > Go to the lessons </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+              <div class="card mx-auto" style=" width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px;">
+                <img src="https://www.test-english.com/img/test-english-home-Vocabulary.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title " style="color: rgb(250, 101, 125);">Vocabulary Lessons</h5>
+                  <div class="card-text">Some quick Boost your vocabulary with exercises tailored for each level: A1, A2, B1, B1+, B2. Every lesson features keywords, definitions, pictures and quizzes with personalized feedback to enhance your learning.</div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px;" >
+                <img src="https://www.test-english.com/img/test-english-home-Listening.jpg" class="card-img-top" alt="
+                " >
+                <div class="card-body">
+                  <h5 class="card-title text-warning">Listening Tests</h5>
+                  <div class="card-text">Improve your listening skills by practicing with our video tests. There are tests for each level: A1, A2, B1, B1+, B2. You will be able to see the transcription of the audio after you submit your answers.</div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3 ">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px;">
+                <img src="https://www.test-english.com/img/test-english-home-Reading.jpg" class="card-img-top" alt="
+                ">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">Reading Tests</h5>
+                  <div class="card-text">
+                    Need to improve your reading skills? Work on our reading tests. There are reading tests for A1, A2, B1, B1+ and B2. You will find different types of texts and there are different types of questions in each test.
+                  </div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3 ">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px; margin: 0 auto;">
+                <img src="https://www.test-english.com/img/test-english-home-Use-of-english.jpg" class="card-img-top" alt="
+                ">
+                <div class="card-body ">
+                  <h5 class="card-title" style="color: orange;">Use of English Tests</h5>
+                  <div class="card-text">
+                    In each of these tests you will find 15 multiple-choice questions about the different grammar lessons that you have studied for a specific level: A1, A2, B1, B1+ and B2.  
+                    You will get feedback for every answer.
+                  </div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px; margin: 0 auto;" >
+                <img src="https://www.test-english.com/img/test-english-home-Writing.jpg" class="card-img-top" alt="
+                " >
+                <div class="card-body mx-auto">
+                  <h5 class="card-title" style="color: purple;">Writing Lessons</h5>
+                  <div class="card-text">
+                    Improve your writing with the exercises suggested in each lesson. Different types of texts for each level: A1, A2, B1, B1+, or B2. You will learn how to organise and connect the text in your compositions.
+                  </div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3 ">         
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px; margin: 0 auto;">
+                <img src="https://www.test-english.com/img/original.test-english-home-exams.jpg" class="card-img-top" alt="
+                ">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Exams</h5>
+                  <div class="card-text my-2">
+                    Improve your exam skills and achieve better results with our practice materials. Test-English will help you with your Cambridge KEY, Cambridge Preliminary, Cambridge First, IELTS, or TOEFL iBT exam.
+                  </div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px; margin: 0 auto;" >
+                <img src="https://www.test-english.com/img/test-english-home-Gymglish.png" class="card-img-top" alt="
+                " >
+                <div class="card-body">
+                  <h5 class="card-title text-success">Online Course</h5>
+                  <div class="card-text my-2">
+                    Discover the joy of learning English with Gymglish, our exciting partner platform! Unlock your language potential with 10-minute daily lessons, personalized corrections, level assessments, and certificates.
+                  </div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+              <div class="card mx-auto" style="width: 22rem; box-shadow: 0 0 10px -4px #000; border-radius: 20px; margin: 0 auto;">
+                <img src="https://www.test-english.com/img/test-english-home-Level-test.jpg" class="card-img-top" alt="
+                ">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Level Test</h5>
+                  <div class="card-text my-2">
+                    If you are not sure about your level, don't worry, you can take this online test. There are 60 multiple-choice questions and there is no time limit. You will be able to see the answers when you finish the test.
+              Online Course
+                  </div>
+                  <a href="#" class="btn btn-outline-secondary ">Go to the lessons</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="h1 text-center my-3 fw-bold">Check our latest <span class="text-success">lessons</span> and <span class="text-success">tests</span>!</div>
+        <!-- Check our latest -->
+        <div class="col-12 d-flex justify-content-between align-items-center row mx-auto">
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 my-3 ">
+            <div class="card mx-auto" style=" width: 11rem;box-shadow: 0 0 10px -5px #000">
+              
+              <div class="card-body">
+                <p class="card-text my-2 h8 p-2">
+                  50 common Noun+Preposition collocations </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 my-3 ">
+            <div class="card mx-auto" style=" width: 11rem;box-shadow: 0 0 10px -5px #000">
+              <img src="https://test-english.com/staging11/wp-content/uploads/Living-with-your-ex_B1-listening-test-300x169.jpg" class="card-img-top" alt="
+              ">
+              <div class="card-body">
+                <div class="card-text my-2 h6">Some quick example text to build on the </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 my-3 ">
+            <div class="card mx-auto" style=" width: 11rem;box-shadow: 0 0 10px -5px #000">
+              <img src="https://test-english.com/staging11/wp-content/uploads/A1-English-Vocabulary_Days-months-seasons-dates-300x169.jpg" class="card-img-top" alt="
+              ">
+              <div class="card-body">
+                <div class="card-text my-2 h6">Some quick example text to build on the </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 my-3 ">
+            <div class="card mx-auto" style=" width: 11rem;box-shadow: 0 0 10px -5px #000">
+              <img src="https://test-english.com/staging11/wp-content/uploads/A2-English-Vocabulary_Housework-300x169.jpg" class="card-img-top" alt="
+              ">
+              <div class="card-body ">
+                <div class="card-text my-2 h6">Some quick example text to build on the </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 my-3 ">
+            <div class="card mx-auto" style=" width: 11rem;box-shadow: 0 0 10px -5px #000">
+              <img src="https://test-english.com/staging11/wp-content/uploads/B2.1%E2%80%93How-to-article_Writing-300x167.jpg" class="card-img-top" alt="
+              ">
+              <div class="card-body">
+                <div class="card-text h6">Some quick example text to build on the </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 my-3 ">
+            <div class="card mx-auto" style=" width: 11rem;box-shadow: 0 0 10px -5px #000">
+              <img src="https://test-english.com/staging11/wp-content/uploads/B2.1%E2%80%93Test-10_Use-of-English-300x167.jpg" class="card-img-top" alt="
+              ">
+              <div class="card-body">
+                <div class="card-text h6">Some quick example text to build on the </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </main>
+       
+    <footer>
+      <div class="container bg-secondary">
+        <div class="d-flex  align-items-center col-12 row justify-content-center">
+          <div class=" footer col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 col-xxl-2 ">
+            <div class="pb-3 text-center pt-4">
+                <img src="https://www.test-english.com/img/logo-test-english-web-home.svg" alt="" width="150px" >
+  
+            </div>
+            <div class="h6 text-center ">
+                <div class="py-1 h6 text-light">© Copyright 2016-2023</div>
+                <a href="#" class="text-test h6 text-light text-decoration-none">test-english.com</a>
+                <div class="py-3 h6 text-light">All rights reserved. </div>
+            </div>
+            <div class="h6 text-center pt-2 h6 text-light"> 
+              <div class="py-2 h6 text-light">Made at</div> 
+                <a href="#" class="text-test text-light text-decoration-none h6">illadelsbous.com</a>
+            </div>
+          </div>
+          <div class= " footer  col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 col-xxl-2" >
+            <ul style="cursor: pointer;list-style-type: none;text-align: center;">
+                <li class="h6 text-light pt-4 ">Levels</li>
+                <li class="my-2"><a href="#" class=" text-test text-decoration-none text-black-50 h6 ">A1 Elementary</a></li>
+                <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">A2 Pre-intermediate</a></li>
+                <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">B1 Intermediate</a></li>
+                <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">B1 Upper-intermediate</a></li>
+                <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">B2 Pre-advanced</a></li>
+            </ul>
+        </div>
+            <div class="footer col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 col-xxl-2" >
+              <div>
+                <ul class="list-unstyled text-center">
+                  <li class="h6 text-light pt-3">Info</li>
+                  <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">About us</a></li>
+                  <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 " >Terms of Use</a></li>
+                  <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">Privacy Policy</a></li>
+                  <li class="my-2" ><a href="#" class="text-test text-decoration-none text-black-50 h6 ">Cookie Policy</a></li>
+                  <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">Cookie Declaration</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 col-xxl-2">
+              <div>
+                <ul class="list-unstyled pt-3 text-center">
+                  <li class="h6 text-light ">Get in Touch</li>
+                  <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">Contact us</a></li>
+                  <li class="my-2"><a href="#" class="text-test text-decoration-none text-black-50 h6 ">Request a topic for a lesson</a></li>
+                </ul>
+                <div class="text-center size-test">
+                  <i class="bi bi-instagram text-light h3 px-2"></i>
+                  <i class="bi bi-facebook text-light h3 px-2"></i>
+                  <i class="bi bi-twitter text-light h3 px-2"></i>
+                  <i class="bi bi-youtube text-light h3 px-2"></i>
+                </div>
+              </div>
+            </div>
+            <div class="footer col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 col-xxl-2">
+              <div class="text-center pt-4">
+                <button class="test btn btn-outline-light text-light w-50 mx-auto h3 border-3 my-3">Take a level test</button>
+                <button class="test btn btn-outline-light text-light w-50 mx-auto h3 border-3 my-3">Take a level test</button>
+                <button class="test btn btn-outline-light text-light w-50 mx-auto h3 border-3 my-3">Take a level test</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
+
+

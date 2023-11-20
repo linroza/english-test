@@ -1,0 +1,15 @@
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+}
+.nav-link{
+    color:white !important;
+}
+
+main .container-fluid .col-12 img{
+    height: 100vh !important;
+}
+
+.describe{
+    left: 40px;
+    top: 50%;
+}
